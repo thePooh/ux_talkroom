@@ -1,2 +1,4 @@
 node_modules
-dist/*.js
+dist/main.js
+dist/bundle.js
+.DS_Store
