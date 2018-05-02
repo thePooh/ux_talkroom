@@ -1,6 +1,6 @@
 import * as store from 'store'
 
-class Member {
+export class Member {
   time: number
 
   constructor(public name: string) {
@@ -18,7 +18,7 @@ namespace Defaults {
   export const activity = 'ходит'
 }
 
-export default class State {
+export class State {
   private static _instance: State;
   public static get Instance() {
     return this._instance || (this._instance = new this())
